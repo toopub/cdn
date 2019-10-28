@@ -258,7 +258,7 @@ header .wrapper nav ul li > .active { color: #757575; background-color: rgba(0, 
   .page .right-show .content-ul #tj { padding-top: 20px; } }
 
 /** Syntax highlighting styles */
-code { padding: 1px 4px; margin: 0 2px; font-size: 90%; border-radius: 5px; color: #333; background-color: rgba(0, 0, 0, 0.04); font-family: Ubuntu,UbuntuRegular,Monaco,Menlo,"Microsoft YaHei Mono",Consolas,"Courier New",monospace,sans-serif; src: url("../font/Ubuntu.eot"); src: local("UbuntuRegular"), local("Ubuntu"), url("../font/Ubuntu.woff") format("woff"), url("../font/Ubuntu.ttf") format("truetype"), url("../font/Ubuntu.svg#Ubuntu") format("svg"); }
+code { padding: 1px 4px; margin: 0 2px; font-size: 90%; border-radius: 5px; color: #333; background-color: rgba(0, 0, 0, 0.04); font-family: Ubuntu,UbuntuRegular,Monaco,Menlo,"Microsoft YaHei Mono",Consolas,"Courier New",monospace,sans-serif; src: url("../cdn@master/fonts/Ubuntu.eot"); src: local("UbuntuRegular"), local("Ubuntu"), url("../cdn@master/fonts/Ubuntu.woff") format("woff"), url("../cdn@master/fonts/Ubuntu.ttf") format("truetype"), url("../cdn@master/fonts/Ubuntu.svg#Ubuntu") format("svg"); }
 
 pre { margin: 12px 0; padding: 8px 12px; word-wrap: break-word; /* IE 5.5-7 */ white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */ white-space: pre-wrap; /* current browsers */ }
 
@@ -532,7 +532,7 @@ pre > code { margin: 0; padding: 0; font-size: 13px; color: black; border: none;
 @media screen and (max-width: 770px) { .back-to-top { right: 2.5%; left: auto; margin-left: 0px; }
   .back-to-top a { width: 33px; height: 33px; line-height: 33px; text-align: center; font-size: 18px; border-radius: 25px; } }
 
-@font-face { font-family: 'Ubuntu'; src: url("../font/Ubuntu.eot?"); src: local("Ubuntu"), url("../font/Ubuntu.woff?") format("woff"), url("../font/Ubuntu.ttf?") format("truetype"), url("../font/Ubuntu.svg#Ubuntu") format("svg"); }
+@font-face { font-family: 'Ubuntu'; src: url("../cdn@master/fonts/Ubuntu.eot?"); src: local("Ubuntu"), url("../cdn@master/fonts/Ubuntu.woff?") format("woff"), url("../cdn@master/fonts/Ubuntu.ttf?") format("truetype"), url("../cdn@master/fonts/Ubuntu.svg#Ubuntu") format("svg"); }
 
 p.success { padding: 0.5rem 1rem; background-color: rgba(82, 196, 26, 0.1); border: 1px solid #52c41a; border-radius: 0.4rem; }
 
@@ -987,7 +987,7 @@ p.links { padding: 0.5rem 1rem; background-color: rgba(246, 247, 249, 0.5); bord
 /*# sourceMappingURL=gitalk.css.map*/
 /*! Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License) */
 /* FONT PATH -------------------------- */
-@font-face { font-family: 'FontAwesome'; src: url("../font/fontawesome-webfont.eot?v=4.7.0"); src: url("../font/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../font/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../font/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../font/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../font/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'FontAwesome'; src: url("../cdn@master/fonts/fontawesome-webfont.eot?v=4.7.0"); src: url("../cdn@master/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../cdn@master/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../cdn@master/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../cdn@master/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../cdn@master/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg"); font-weight: normal; font-style: normal; }
 
 .fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
